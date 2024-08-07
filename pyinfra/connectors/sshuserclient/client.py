@@ -14,8 +14,8 @@ from paramiko import (
     SSHException,
     Transport,
 )
-from paramiko.ssh_exception import BadAuthenticationType
 from paramiko.agent import AgentRequestHandler
+from paramiko.ssh_exception import BadAuthenticationType
 
 from pyinfra import logger
 from pyinfra.api.util import memoize
